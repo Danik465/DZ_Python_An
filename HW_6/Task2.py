@@ -3,8 +3,8 @@
 # (т.е. не меньше заданного минимума и не больше заданного максимума)
 from random import randint
 
-max_el = 10
-min_el = 1
+max_el = int(input("Введите максимальный элемент: "))
+min_el = int(input("Введите минимальный элемент: "))
 n = int(input("Введите количество элементов: "))
 lst = [randint(1,randint(1,10)) for i in range(n)]
 print(lst)
